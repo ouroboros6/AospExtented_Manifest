@@ -113,15 +113,15 @@
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aex"  />
   <project path="libcore" name="platform_libcore" remote="aex" />
 
-# Add Oneplus 7 pro build files to the build
+
   <!-- Guacamole -->
   <project path="device/oneplus/sm8150-common" name="device_oneplus_sm8150-common" remote="TheGODS" />
   <project path="kernel/oneplus/sm8150" name="kernel_oneplus_sm8150" remote="TheGODS" />
   <project path="device/oneplus/common" name="device_oneplus_common" remote="TheGODS" />
-  <project path="vendor/oneplus/apps" name="platform_vendor_oneplus_apps" remote="aex-lab/>
-  <project path="vendor/oneplus/sm8150-common" name="vendor_oneplus_sm8150-common" remote="aex-Devices/>
+  <project path="vendor/oneplus/apps" name="platform_vendor_oneplus_apps" remote="aex-lab"/>
+  <project path="vendor/oneplus/sm8150-common" name="vendor_oneplus_sm8150-common" remote="aex-Devices"/>
   <project path="hardware/oneplus" name="hardware_oneplus" remote="aex-Devices/>
-  <project path="device/oneplus/guacamole" name="device_oneplus_guacamole" remote="aex-Devices/>
+  <project path="device/oneplus/guacamole" name="device_oneplus_guacamole" remote="aex-Devices"/>
     
   <!-- AOSP -->
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" revision="refs/tags/android-11.0.0_r34" />
